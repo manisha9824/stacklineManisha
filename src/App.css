@@ -1,0 +1,152 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+
+.header {
+  width: 100%;
+  background-color: #002d72;
+  padding: 10px 0 10px 20px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+
+
+.left-section {
+  flex: 0.8;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+
+.product-details-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-details-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product-details-container h2 {
+  margin-bottom: 10px;
+}
+
+.product-details-container p {
+  margin-bottom: 10px;
+}
+
+.product-details-container strong {
+  font-weight: bold;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.tag-box {
+  background-color: #f2f2f2;
+  padding: 8px 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-section {
+  flex: 2.2;
+  padding: 10px;
+  width: 100%;
+}
+
+.sales-chart-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+
+
+.sales-table-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  /* Align headers to the left */
+  color: #5a5a5a;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+td {
+
+  font-size: 12px;
+  border-top: 1px solid #E0E0E0;
+  color: #5a5a5a;
+  padding: 10px;
+}
+
+
+.recharts-wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.product-details-container,
+.chart-container,
+.sales-table-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+h3 {
+
+  margin-left: 10px;
+}
