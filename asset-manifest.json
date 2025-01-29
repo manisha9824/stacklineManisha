@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stacklineManisha/static/css/main.778477a8.css",
-    "main.js": "/stacklineManisha/static/js/main.6883b405.js",
+    "main.js": "/stacklineManisha/static/js/main.bf6a52d1.js",
     "static/js/488.3ccc538a.chunk.js": "/stacklineManisha/static/js/488.3ccc538a.chunk.js",
     "index.html": "/stacklineManisha/index.html",
     "main.778477a8.css.map": "/stacklineManisha/static/css/main.778477a8.css.map",
-    "main.6883b405.js.map": "/stacklineManisha/static/js/main.6883b405.js.map",
+    "main.bf6a52d1.js.map": "/stacklineManisha/static/js/main.bf6a52d1.js.map",
     "488.3ccc538a.chunk.js.map": "/stacklineManisha/static/js/488.3ccc538a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778477a8.css",
-    "static/js/main.6883b405.js"
+    "static/js/main.bf6a52d1.js"
   ]
 }
