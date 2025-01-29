@@ -14,7 +14,7 @@ const App: React.FC = () => {
   const loading = useSelector((state: RootState) => state.product.loading);
 
   useEffect(() => {
-    axios.get("/data.json")
+    axios.get(`${process.env.PUBLIC_URL}/data.json`)
       .then(response => {
         dispatch(setProductData(response.data[0]));
       })
@@ -27,7 +27,7 @@ const App: React.FC = () => {
     <div className="app-container">
       <header className="header">
         <img
-          src="/stackline_logo.svg"
+          src={`${process.env.PUBLIC_URL}/stackline_logo.svg`}
           alt="Stackline Logo"
           className="logo"
         />
