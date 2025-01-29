@@ -2,6 +2,7 @@
   "name": "stackline-dashboard-new3",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://manisha9824.github.io/stacklineManisha",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
